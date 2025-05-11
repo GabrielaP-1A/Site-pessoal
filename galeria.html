@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Galeria - PONHOS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffc1d5;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      background-color: #b3004b;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 60px;
+      margin-right: 10px;
+    }
+
+    .logo-title {
+      font-size: 30px;
+      font-weight: bold;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      font-size: 32px;
+      color: #ffffff;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .galeria img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.2s;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://png.pngtree.com/png-clipart/20230405/original/pngtree-kitty-cute-cat-sticker-kitten-cartoon-png-image_9029289.png" alt="Gatinho fofo">
+      <span class="logo-title">Ponhos News - Galeria: Imagens PONHAS</span>
+    </div>
+
+    <nav>
+      <a href="index.html" target="_self">Início</a>
+      <a href="mensagens.html" target="_self">Mensagens</a>
+      <a href="galeria.html" target="_self">Galeria</a>
+      <a href="vídeos.html" target="_self">Vídeos</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Fotos de gatinhos que lembram nós dois</h1>
+
+    <div class="galeria">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz1-RgJpqwTmERbqfpMPn7OsSf0TjKqQhVqD1kWJ_OSFbjNxL9aCs3rQc&s=10" alt="Foto 1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTK_ifHFxThS5-JdoAywQsZbSdOHSr53NQOXP9aGgX63UUvMihVVSNRj8&s=10" alt="Foto 2">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOsLxs6FA7szJF6qsUUKO9qfAEO6IR0WvNBQ&s" alt="Foto 3">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMjb2MgQNspHSuvdWND9gR5RpKxZ5ei5Hl-_mAjHDR5s49k0x-6PKh458&s=10" alt="Foto 4">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbqx1EXnpKARh0o29FZ0872YzMs7UW93YESNO3leRUZHUP7UN6It8poqo&s=10" alt="Foto 5">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXRbUyAuJI3TUGsUcxLrCtJfNE1FjwXi_iImI5DDwiOGjPPLOuME0qcYcR&s=10" alt="Foto 6">
+
+    </div>
+  </main>
+</body>
+</html>
+
